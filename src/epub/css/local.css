@@ -1,2 +1,32 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* Letters, notes, telegrams: */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+p[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+.telegram{
+	font-variant: all-small-caps;
+}
+
+/* Verses of a song: */
+[epub|type~="z3998:song"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
