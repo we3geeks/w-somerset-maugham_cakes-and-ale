@@ -29,49 +29,64 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Cakes and Ale</dc:title>
 		<meta property="file-as" refines="#title">Cakes and Ale</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">The Skeleton in the Cupboard</dc:title>
+		<meta property="file-as" refines="#subtitle">Skeleton in the Cupboard, The</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Cakes and Ale; or, The Skeleton in the Cupboard</dc:title>
+		<meta property="file-as" refines="#fulltitle">Cakes and Ale</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Authors' spouses--Fiction</dc:subject>
+		<dc:subject id="subject-2">Married people--Fiction</dc:subject>
+		<dc:subject id="subject-3">Biographers--Fiction</dc:subject>
+		<dc:subject id="subject-4">Authors--Fiction</dc:subject>
+		<dc:subject id="subject-5">England--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
+		<meta property="term" refines="#subject-1">sh2009116354</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2008107177</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2007101991</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2007100550</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">unknown</meta>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">An author’s past relationships with both a recently deceased and highly regarded novelist and the novelist’s unlikely first wife make for an uncomfortable dilemma when the author is approached by a socially ambitious acquaintance to provide background for a biography of the novelist.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;When social climber Alroy Kear is given a plum commission to write the biography of recently deceased and highly regarded author Edward Driffield by Driffield’s second wife, Amy, Kear needs background on Driffield’s early years. Kear reaches out to an acquaintance, fellow author William Ashendon, who knew Driffield and his unlikely first wife Rosie while Driffield was early in his career and still largely unknown. Set in London during the years between World Wars I and II, and narrated by Ashendon, &lt;a href="https://standardebooks.org/ebooks/w-somerset-maugham"&gt;W. Somerset Maugham&lt;/a&gt; skillfully weaves an engaging and sometimes humorous satire of London’s literary society based on his narrator’s initial acquaintance as a young man with Driffield and his unlikely first wife Rosie in rural Kent and later relationships as an adult with both in London.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Cakes and Ale&lt;/i&gt; was originally published in serial form and drew attention for its unflattering portrayals of London’s literary society’s snobbery and of Alroy Kear and Edward Driffield, who were widely held to be based on English novelists Hugh Walpole and Thomas Hardy (initially denied by Maugham, although he did later confirm it in part). While others of Maugham’s works were generally regarded as better, even by Maugham and with &lt;i&gt;Of Human Bondage&lt;/i&gt; considered by many to his best, Maugham himself noted that &lt;i&gt;Cakes and Ale&lt;/i&gt; was his favorite based on his portrayal of the colorful character Rosie.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20170731</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/CakesAndAleMaugham</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Cakes_and_Ale</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/w-somerset-maugham_cakes-and-ale</meta>
 		<dc:creator id="author">W. Somerset Maugham</dc:creator>
 		<meta property="file-as" refines="#author">Maugham, W. Somerset</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">William Somerset Maugham</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/W._Somerset_Maugham</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79036830</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">David Muirhead</dc:contributor>
+		<meta property="file-as" refines="#artist">Muirhead, David</meta>
+		<meta property="se:name.person.full-name" refines="#artist">David Thomson Muirhead</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr93032581</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Al Haines</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Al, Haines</meta>
+		<meta property="file-as" refines="#transcriber-1">Haines, Al</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Cindy Beyer</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Cindy, Beyer</meta>
+		<meta property="file-as" refines="#transcriber-2">Beyer, Cindy</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders Canada</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders Canada</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdpcanada.net/</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Ron Stewart</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Stewart, Ron</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
